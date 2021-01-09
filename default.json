@@ -1,0 +1,27 @@
+{
+  "extends": [
+    ":autodetectPinVersions",
+    ":automergeDisabled",
+    ":combinePatchMinorReleases",
+    ":dependencyDashboard",
+    ":disableRateLimiting",
+    ":docker",
+    ":enableRenovate",
+    ":enableVulnerabilityAlerts",
+    ":gomod",
+    ":ignoreModulesAndTests",
+    ":ignoreUnstable",
+    ":noUnscheduledUpdates",
+    ":prImmediately",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":separateMultipleMajorReleases",
+    ":updateNotScheduled",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor",
+    "preview:dockerCompose",
+    "workarounds:all",
+    "github>ispec-inc/renovate-config:schedule",
+    "github>ispec-inc/renovate-config:postUpdateOptions"
+  ]
+}
