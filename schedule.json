@@ -3,6 +3,6 @@
     ":timezone(Asia/Tokyo)"
   ],
   "schedule": [
-    "after 10:30 before 18:00 every weekday except after 12:00 before 13:00"
+    "before 3am on Monday"
   ]
 }
