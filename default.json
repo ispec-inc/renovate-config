@@ -1,7 +1,6 @@
 {
   "extends": [
     ":autodetectPinVersions",
-    ":automergeDisabled",
     ":combinePatchMinorReleases",
     ":dependencyDashboard",
     ":disableRateLimiting",
@@ -22,6 +21,7 @@
     "preview:dockerCompose",
     "workarounds:all",
     "github>ispec-inc/renovate-config:schedule",
-    "github>ispec-inc/renovate-config:postUpdateOptions"
+    "github>ispec-inc/renovate-config:postUpdateOptions",
+    "github>ispec-inc/renovate-config:automerge"
   ]
 }
